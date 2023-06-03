@@ -14,17 +14,24 @@
 ![image](https://github.com/xiao-yang25/mychat/assets/92993462/f095d828-7378-4683-a96d-40609ea4fb75)
 
 ### 2.启动Nginx和Redis
+```
   cd /usr/local
   cd nginx/sbin
   sudo ./nginx
-
+```
+```
   redis-server
+```
 
 ### 3.启动服务器
+```
   ./ChatServer 127.0.0.1 6000
+```
   
 ### 4.启动客户端
+```
   ./ChatClient 127.0.0.1 8000
+```
 
 
 
